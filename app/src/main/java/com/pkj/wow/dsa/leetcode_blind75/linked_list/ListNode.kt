@@ -5,6 +5,7 @@ data class ListNode<T>(
     var next: ListNode<T>? = null
 ){
     override fun toString(): String {
-        return value.toString() + "->" + next
+//        return value.toString() + "->" + next
+        return if(next!= null) "$value  -> $next" else "$value"
     }
 }
