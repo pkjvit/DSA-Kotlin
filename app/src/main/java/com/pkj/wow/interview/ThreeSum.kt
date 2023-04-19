@@ -1,11 +1,11 @@
-package com.pkj.wow.dream11
+package com.pkj.wow.interview
 
 
 /*
 Input : arr[] = {0, -1, 2, -3, 1}
 
 Output : (0 -1 1) or (2 -3 1)
- */
+d11 */
 
 fun findThreeSum(intArray: IntArray): List<IntArray>{
     val result = mutableListOf<IntArray>()
